@@ -1,11 +1,13 @@
 package com.ProjetIF.Demo.Modele;
 
+import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
 
 @Entity
 @Table(name = "course")
+@Data
 @NoArgsConstructor
 public class Course {
     @Id
